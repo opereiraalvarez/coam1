@@ -1,0 +1,50 @@
+body {
+	background:hsla(34,54,23); 
+	margin:30px 30px;	
+	font-family:trebuchet ns;
+	color:black;	
+}
+
+.titulo {
+	text-align:center; 
+}
+
+h1::before{
+	content: "oscar";
+	background:blue;  
+}
+
+h1::after{
+	content:"practica";
+	background:gold; 
+}
+
+p::first-letter {
+font-size:36px;
+color:blue;
+}
+
+p::first-line {
+	color:blue;  
+}
+
+ul li {
+	margin-left: 30px;  
+}
+
+div{
+	height:50px;
+	font-family:verdana; 
+	font-size:16px;
+	overflow:visible;   
+}
+
+.pulgada{
+width:6cm; 
+ background:gray;  
+}
+
+.centimetro{
+	width: 4cm;
+	background:blue;   
+}
